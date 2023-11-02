@@ -44,7 +44,7 @@
 
 //--------------------------------------------------------------
 
-    //Arithmetic operators 
+//Arithmetic operators 
     $x = 10;
     $y = 2;
     $z = null; // I will set the value later
@@ -56,10 +56,14 @@
     //$z = $x**$y; // power (elevato alla potenza in Ita)
     $z = $x%$y; // module (remaining of the division)
 
-    echo "$z";
+    echo "$z<br><br><br><br><br>";
 
-
-
+//Increment/Decrement operator
+    $counter = 0;
+    $counter++; //Increment by 1
+    //$counter--; //decrement by 1
+    $counter+=10; //increment of 10
+    echo $counter;
 
 
 //---------------------------------------------------------------
