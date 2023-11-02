@@ -39,12 +39,30 @@
     echo "you have ordered {$quantity} x {$food}s<br>";
 
     $total = $quantity * $price;
-    echo "your total is {$total}£";
+    echo "your total is {$total}£<br><br><br><br><br><br>";
+    
+
+//--------------------------------------------------------------
+
+    //Arithmetic operators 
+    $x = 10;
+    $y = 2;
+    $z = null; // I will set the value later
+
+    //$z = $x+$y;
+    //$z = $x-$y;
+    //$z = $x*$y;
+    //$z = $x/$y;
+    //$z = $x**$y; // power (elevato alla potenza in Ita)
+    $z = $x%$y; // module (remaining of the division)
+
+    echo "$z";
 
 
 
 
 
+//---------------------------------------------------------------
 ?>
 <!DOCTYPE html>
 <html lang="en">
