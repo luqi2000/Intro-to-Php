@@ -34,7 +34,10 @@
    //$total = sqrt($x);// radice
    //$total = pow($x, $y); // power so example x=2, y=3, total= 8
    //$total = max($x, $y, $z); //it will give the greatest value example: 3,4,7 = 7
-   $total = min($x,$y,$z); // it will give the minimum number between x,y,z 
+   //$total = min($x,$y,$z); // it will give the minimum number between x,y,z 
+
+   //$total = pi(); //pigrec
+   //$total = rand(1,100); // random number between 1 and 100
 
    echo $total;
 
