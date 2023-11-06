@@ -24,6 +24,7 @@
 <?php
    $x = $_POST["x"];
    $y = $_POST["y"];
+   $z = $_POST["z"];
    $total = null;
 
    //$total = abs($x); //absolute value ovvero positive value so if i put -3 it will became 3
@@ -31,7 +32,9 @@
    //$total = floor($x); // round for difect example 3.9 will became 3
    //$total = ceil($x); //round for eccess for example 1.3 will became 2
    //$total = sqrt($x);// radice
-   $total = pow($x, $y); // power so example x=2, y=3, total= 8
+   //$total = pow($x, $y); // power so example x=2, y=3, total= 8
+   //$total = max($x, $y, $z); //it will give the greatest value example: 3,4,7 = 7
+   $total = min($x,$y,$z); // it will give the minimum number between x,y,z 
 
    echo $total;
 
