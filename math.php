@@ -11,7 +11,7 @@
         <input type="text" name="x">
         <label>y:</label>
         <input type="text" name="y">
-        <label>x:</label>
+        <label>z:</label>
         <input type="text" name="x">
 
         <input type="submit" value="total">
