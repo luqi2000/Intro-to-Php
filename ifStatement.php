@@ -34,4 +34,23 @@
 
 
     //------------------------------------------------------------------------
+    //create a program for calculate a pay including overtime 
+
+    $hours = 50; // put a number 
+
+    $rate = 15;
+    $weekly_pay = null;
+
+    if($hours<=0){
+        $weekly_pay = 0;
+    }
+    else if($hours <=40) {
+        $weekly_pay = $hours * $rate;
+
+    }else {
+        $weekly_pay = ($rate * 40 ) + (($hours-40) * ($rate * 1.5));
+    }
+
+    echo "<br>You made \${$weekly_pay} this week";
+
 ?>
