@@ -23,5 +23,15 @@
 
     //------------------------------------------------------------------------
 
-    
+    $adult = false;
+
+    if($adult ){ // automatically if you put $adult it mean ($adult == true )
+        echo "<br>You may enter this site";
+    }
+    else{
+        echo "<br>You must be an adult to enter";
+    }
+
+
+    //------------------------------------------------------------------------
 ?>
