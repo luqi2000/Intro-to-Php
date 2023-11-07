@@ -23,9 +23,22 @@
     }
 //-------------------------------------------
     if(!$cloudy == true){
-        echo"It's sunny";
+        echo"It's sunny<br>";
     }else{
-        echo "It's cloudy";
+        echo "It's cloudy<br>";
+    }
+
+//--------------------------------------------
+//My country has election
+
+
+    $age = 23;
+    $citizen = true;
+
+    if($age >= 18 && $citizen){
+        echo "You can vote";
+    }else{
+        echo "You cannot vote";
     }
 
 ?>
