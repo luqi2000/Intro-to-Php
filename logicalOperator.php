@@ -41,4 +41,19 @@
         echo "You cannot vote";
     }
 
+//-----------------------------------------------
+//Sell movies ticket 
+
+    $child = false;
+    $senior = false;
+    $ticket = null;
+    
+    if($child || $senior){
+        $ticket = 10;
+
+    }else{
+        $ticket = 15;
+    }
+    echo "the ticket price is {$ticket}$" //15 pound for everyone exclusive of child and senior so if i put child on true then the price will be 10$
+
 ?>
