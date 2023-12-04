@@ -24,6 +24,41 @@ switch($grade){
         echo "You failed!";
         break;      
     default:
-        echo "{$grade} is not valid";                
+        echo "{$grade} is not valid<br>";                
 }
+//---------------------------------------
+//Exercise 2
+ 
+    $date = date("l"); //l will give the current name of today date for example monday
+    
+    switch($date){
+        case "Monday":
+            echo " I hate Mondays";
+            break;
+        case "Tuesday":
+            echo "It is taco Tuesday";
+            break;
+        case "Tuesday":
+            echo "It is taco Tuesday";
+            break;
+        case "Wednesday":
+            echo "Half work done!!";
+            break;
+        case "Thursday":
+            echo "hmmmm, Almost week end  hahahahah";
+            break;
+        case "Friday":
+            echo "It is so lovely Friday";
+            break;                
+        case "Saturday":
+            echo "Refreshing";
+            break;    
+        case "Sunday":
+            echo "Rest day";
+            break;  
+
+        default:
+        echo "{$date} is not a day";
+
+    }
 ?>
