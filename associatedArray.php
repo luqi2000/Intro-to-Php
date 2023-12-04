@@ -6,6 +6,10 @@
                         "Pakistan"=> "Islamabad"
                     );
 
-    echo $capitals["Italy"];                
+    echo $capitals["Italy"] . "<br>";// will print Rome
 
+    //print all with key and value
+    foreach($capitals as $key => $value){
+        echo "{$key} = {$value}<br>";
+    }
 ?>
