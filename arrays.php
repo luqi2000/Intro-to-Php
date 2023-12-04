@@ -8,6 +8,12 @@
 
     echo $foods[0] . "<br>";//return the first element of the array
     echo $foods[1] . "<br><br><br><br>";
+
+
+    //adding element at the end of the array in foods variable
+    array_push(
+        $foods,"pineapple", "kiwi","Mango"
+    );
   
     //if I want to display all the element of the Array?
     foreach($foods as $food){
