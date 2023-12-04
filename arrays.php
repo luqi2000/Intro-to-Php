@@ -28,5 +28,8 @@
 
     echo "<br><br><br>";
     echo $foods[0];
+
+    //count elements in the array 
+    echo count($foods);
    
 ?>
