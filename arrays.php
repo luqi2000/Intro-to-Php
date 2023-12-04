@@ -14,6 +14,9 @@
     array_push(
         $foods,"pineapple", "kiwi","Mango"
     );
+
+    //removing last element from the array so will remove Mango
+    array_pop($foods);
   
     //if I want to display all the element of the Array?
     foreach($foods as $food){
