@@ -16,7 +16,7 @@
     foreach($capitals as $key => $value){
         echo "{$key} = {$value}<br>";
     }
-    
+
     //display all keys
     $keys = array_keys($capitals); //this will return a new array
     
@@ -29,5 +29,12 @@
 
     foreach($values as $value){
         echo "{$value}<br>";
+    }
+
+    //flip key with value 
+    $capitals = array_flip($capitals);
+
+    foreach($capitals as $key => $value ){
+        echo "{$key} = {$value}<br>";
     }
 ?>
