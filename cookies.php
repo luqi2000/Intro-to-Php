@@ -15,4 +15,10 @@
 
     }
 
+    if(isset($_COOKIE["fav_food"])){
+        echo "Buy some  {$_COOKIE["fav_food"]} !!1";
+    }else{
+        echo "I don't know your favorite food";
+    }
+
 ?>
