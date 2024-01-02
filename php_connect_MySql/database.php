@@ -18,7 +18,7 @@
         $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
 
     }catch(mysqli_sql_exception){
-        echo "Could not connected";
+        echo "Could not connected!!";
     }
     
     //check if connection is running 
