@@ -2,11 +2,13 @@
     include("database.php");
 
 
-    $username = "Luqman";
-    $password = "Apple123";
+    $username = "Dario";
+    $password = "Dario123";
+
+    $hash = password_hash($password, PASSWORD_DEFAULT);
 
     //adding into Mysql admin
-    $sql = "INSERT INTO users (user, password) VALUES ('$username' , '$password') ";
+    $sql = "INSERT INTO users (user, password) VALUES ('$username' , '$hash') ";
 
     try{
         mysqli_query($conn, $sql);
